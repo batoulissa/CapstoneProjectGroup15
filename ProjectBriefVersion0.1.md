@@ -1,11 +1,12 @@
-1. Project Overview
+**1. Project Overview
 Summary
 
 Possible Names: TheraTalk, WellTalk, TheraWell, MindEase, MindConnect
 TheraTalk: A mental health therapy app connecting users with certified therapists through secure, flexible communication options.
 Purpose: To provide accessible and personalized mental health support through AI-driven therapist matching and user-friendly interfaces.
 Core Features: Secure messaging and video sessions, and anonymous interactions.
-2. Service Flow
+
+**2. Service Flow
 User Journey
 User Sign-Up: Users create an account, set up a profile, and specify their mental health needs and preferences. Questionnaire/Test to determine mental health help needed. 
 Dashboard: users can write their problem anonymously and experts can help with sessions or comments. 
@@ -15,7 +16,7 @@ In-Session: Users engage in secure, encrypted text or video sessions with their 
 Post-Session Feedback: Users rate the session and leave feedback, which contributes to therapist reviews. Review system for the experts. 
 
 Future possible features: Daily Challenges: Users receive daily wellness challenges and affirmations, earning points for completion.
-Roadmap
+**Roadmap
 Phase 1: Research & Planning
 Conduct market research, define target personas, and outline features.
 Set up the project structure, including GitHub repository and task management tools.
@@ -31,12 +32,12 @@ Implement feedback from testing to refine the app.
 Phase 5: Launch & Marketing
 Deploy the app to app stores and launch marketing campaigns.
 Monitor user feedback and roll out updates.
-3. Personas
+**3. Personas
 Target Customers
 All Backgrounds: all individuals seeking accessible mental health support.
 Working Professionals: People with demanding jobs who need flexible, remote mental health care.
 Students: College and university students dealing with academic stress and mental health challenges. 
-4. Pain Points & Challenges
+**4. Pain Points & Challenges
 Pain Points
 User Trust & Privacy: Ensuring users feel safe and their data is protected requires robust encryption and data protection protocols. Anonymous feature. 
 Therapist Verification: Verifying therapist credentials to maintain trust in the platform can be time-consuming and costly. 
@@ -48,7 +49,7 @@ Scalability: Designing the app to handle potentially high user volumes and data 
 Korean Psychological Association (KPA): The KPA oversees the certification of psychologists in South Korea. Therapists who are registered with the KPA have met the necessary educational and training requirements. Verification Process: You can partner with the KPA to verify the credentials of psychologists. This might involve accessing their database to cross-check the qualifications of therapists who sign up on your platform.
 National Health Insurance Service (NHIS): The NHIS can provide data on licensed practitioners within the country. Verification Process: You may be able to verify a therapist's registration and credentials through the NHIS database.
 
-5. Technologies Needed
+**5. Technologies Needed
 Front-End
 React Native or Flutter: For building the mobile application.
 UI Libraries: Material-UI or Bootstrap for designing the user interface.
