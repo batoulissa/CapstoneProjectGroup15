@@ -1,0 +1,128 @@
+TheraTalk - Mental Health Therapy Application
+
+TheraTalk is an innovative application designed to bridge the gap between patients and therapists by providing a seamless platform for mental health support. This app enables users to track their mood, book one-on-one sessions with licensed therapists, and engage with mental wellness resources such as journals, libraries, and community discussions. The goal of TheraTalk is to foster a safe and effective environment for mental well-being.
+
+Key Features
+
+Mood Tracker:
+
+Users can log their daily moods (Happy, Calm, Manic, Angry) to track their emotional state over time.
+
+1-on-1 Therapy Sessions:
+
+Book therapy sessions with licensed therapists directly from the app.
+
+View session details and reschedule as needed.
+
+Wellness Resources:
+
+Access a library of articles and journals focusing on mental health and self-care.
+
+Maintain a personal journal to document thoughts and feelings.
+
+Community Hub:
+
+Engage in community discussions with peers to share coping strategies and experiences.
+
+Participate in trending topics for better community engagement.
+
+Plan Management:
+
+View and manage subscription plans.
+
+Renew plans for continuous access to sessions and chat features.
+
+Technologies Used
+
+Frontend:
+
+React Native:
+
+A robust framework for building the mobile application, ensuring compatibility across iOS and Android devices.
+
+Provides interactive and dynamic UI/UX designs.
+
+Expo:
+
+Simplifies the development and deployment process.
+
+Backend:
+
+Flask:
+
+A lightweight Python-based web framework for handling server-side operations.
+
+Manages user authentication, session booking, and other backend functionalities.
+
+Flask-SQLAlchemy:
+
+For seamless database integration and ORM (Object-Relational Mapping).
+
+Flask-CORS:
+
+Enables secure communication between the frontend and backend.
+
+Database:
+
+SQLite:
+
+A lightweight database for storing user information, session details, and mood logs.
+
+Other Technologies:
+
+Axios:
+
+For efficient and reliable API communication between the frontend and backend.
+
+dotenv:
+
+Securely manages environment variables like API keys and database configurations.
+
+How to Use the Application
+
+Clone the Repository:
+
+Clone the frontend and backend files from the respective directories in the GitHub repository.
+
+Set Up Backend:
+
+Navigate to the TheraTalk folder.
+
+Install dependencies using pip install -r requirements.txt.
+
+Run the backend server using python3 app.py.
+
+Set Up Frontend:
+
+Navigate to the frontend directory.
+
+Install dependencies using npm install.
+
+Start the app using npm start and scan the QR code with your Expo Go app.
+
+Connect Backend to Frontend:
+
+Ensure the backend server is running.
+
+Replace the API URL in the frontend with your backend's IP address.
+
+Explore the App:
+
+Use the features such as mood tracking, session booking, and engaging with the community.
+
+Contributions
+
+We welcome contributions from the community. If you’d like to contribute to TheraTalk, please follow these steps:
+
+Fork the repository.
+
+Create a new branch (feature/your-feature-name).
+
+Commit your changes and push them to your fork.
+
+Submit a pull request for review.
+
+Contact
+
+For any queries or feedback, please contact us via GitHub Issues or email us at 2271098@ewhain.net
+
