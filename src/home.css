@@ -1,0 +1,67 @@
+/* Home.css */
+/* Created by Sanna Ascard Soederstroem 2025.04.08 */
+
+/* Home.css */
+
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fefefe;
+  }
+  .home-form {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-container {
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    color: #2d2d2d;
+  }
+  
+  /* All buttons look similar in size/shape */
+  .home-button {
+    display: block;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 12px auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Two color variants */
+  .sage {
+    background-color: #9caf88; /* sage green */
+  }
+  
+  .sage:hover {
+    background-color: #7f9969;
+  }
+  
+  .forest {
+    background-color: #228B22; /* forest green */
+  }
+  
+  .forest:hover {
+    background-color: #1a661a;
+  }
+  

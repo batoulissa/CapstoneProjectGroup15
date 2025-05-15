@@ -1,81 +1,70 @@
-# TheraTalk
+# Getting Started with Create React App
 
-TheraTalk is a mental health therapy app that connects patients and doctors, inspired by platforms like Labayh. This project includes a frontend built with React Native and a backend built with Python using Flask.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-  - [Frontend](#frontend): MyFirstApp
-  - [Backend](#backend): TheraTalk
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- User authentication for patients and doctors.
-- Mood tracking with selectable emotions.
-- Book and manage 1-on-1 therapy sessions.
-- Access to a journal and library for mental wellness resources.
-- Notification system for reminders and updates.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies Used
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Frontend (MyFirstApp)
-- React Native
-- Expo
+### `npm test`
 
-### Backend (TheraTalk)
-- Python
-- Flask
-- Flask-SQLAlchemy
-- Flask-CORS
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Setup Instructions
+### `npm run build`
 
-### Frontend
-1. Navigate to the `frontend` folder.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-4. Scan the QR code to launch the app on your device (via Expo Go) or in an emulator.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Backend
-1. Navigate to the `backend` folder.
-2. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv environment
-   source environment/bin/activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Flask server:
-   ```bash
-   python app.py
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Notes
-- Ensure both frontend and backend are running to see full functionality.
-- Update API URLs in the frontend to match the backend's IP address and port.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-## Contributing
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## License
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
