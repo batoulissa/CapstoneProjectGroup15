@@ -1,0 +1,143 @@
+/* MoodTracker.css */
+/* Original writer: Issa Batoul*/
+
+/* Container styling */
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Streak count styling */
+  .streak {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d35400;
+  }
+  
+  /* Form container styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Select dropdown styling */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Submit button styling */
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for submit button */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result section styling after submission */
+  .result {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Reset button styling */
+  .resetBtn {
+    margin-top: 20px;
+    background-color: #888;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for reset button */
+  .resetBtn:hover {
+    background-color: #777;
+  }
+  
+  /* History section styling */
+  .history {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  /* No data message styling */
+  .history p {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Calendar container styling */
+  .react-calendar {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .react-calendar__tile {
+    background-color: #f4f4f4;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #e1e1e1;
+  }
+  
+  /* Calendar date mood entry styling */
+  .react-calendar__tile-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Styling for dates with mood logs */
+  .react-calendar__tile-content p {
+    font-size: 0.9rem;
+    color: #d35400;
+  }
+  

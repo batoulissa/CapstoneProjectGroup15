@@ -1,0 +1,58 @@
+/* Created by Sanna Ascard Soederstroem 2025.05.13 */
+
+.chat-landing-page {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+  }
+  
+  .chat-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-sidebar li {
+    padding: 0.75rem;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-sidebar li:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .chat-sidebar .selected {
+    background-color: #d0d0d0;
+  }
+  
+  .chat-main {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .chat-messages {
+    margin-top: 1rem;
+  }
+  
+  .message {
+    margin-bottom: 1rem;
+  }
+  
+  .message.user {
+    text-align: right;
+    color: blue;
+  }
+  
+  .message.partner {
+    text-align: left;
+    color: green;
+  }
+  
