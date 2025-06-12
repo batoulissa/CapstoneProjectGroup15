@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# TheraTalk
+Connecting patients and therapists with AI matching.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🌟 About TheraTalk
+TheraTalk is a platform designed to help patients and therapists connect in an easier and faster way. It uses **AI-powered matching** to ensure optimal pairings based on individual needs and therapeutic approaches. Beyond matching, TheraTalk features an integrated **AI ChatBot**, powered by the **Gemini AI API**, offering instant support and guided conversations through advanced prompt training.
 
-### `npm start`
+This platform was developed as a graduation project at Ewha Womans University, aiming to provide a seamless and effective solution for mental health access.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ✨ Features
+* **AI-Powered Therapist Matching:** Intelligent algorithms connect patients with the most suitable therapists.
+* **Integrated AI ChatBot:** Offers instant support and guided conversations powered by Gemini AI.
+* **Mood Log:** To help users reflect on their emotional patterns, we built a mood tracker. Users can select from emoticons to log how they feel every day.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
+* **Backend:** Python, Flask
+* **Frontend:** JavaScript, CSS
+* **AI:** The matching algorithm is built using Python, and the chatbot uses Google Gemini AI API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🚀 Getting Started
+To get TheraTalk up and running on your local machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+Make sure that the following are installed in your environment:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Backend Environment:
+* Python (3.8+)
+* pip
+* Conda (for environment management)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Frontend Environment:
+* Node.js (14+)
+* npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/batoulissa/CapstoneProjectGroup15.git](https://github.com/batoulissa/CapstoneProjectGroup15.git)
+    cd CapstoneProjectGroup15
+    ```
 
-## Learn More
+2.  **Backend Setup:**
+    ```bash
+    cd backend
+    # It's highly recommended to use a virtual environment for Python projects
+    conda create --name theratalk python=3.8 # Or your preferred Python version
+    conda activate theratalk
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    pip install -r requirements.txt
+    
+    # Set up your environment variables (e.g., Gemini AI API key). 
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.  **Frontend Setup:**
+    ```bash
+    cd ../frontend
+    npm install
+    ```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## ▶️ Running the Application
+After following the installation steps, you can start the servers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> **💡 Tip:** It's crucial to start the **backend server** before starting the **frontend server** for the application to function correctly.
 
-### Making a Progressive Web App
+1.  **Start Backend Server:**
+    Navigate to the `backend` directory in your **activated Conda environment** (`conda activate theratalk`) and run:
+    ```bash
+    python3 app.py # Command to start the backend application
+    ```
+    The backend server will typically run on `http://127.0.0.1:5000` (or similar).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2.  **Start Frontend Server:**
+    Open a *new* terminal window, navigate to the `frontend` directory, and run:
+    ```bash
+    npm start
+    ```
+    The frontend will typically open in your browser at `http://localhost:3000` (or similar).
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 💖 Our Team
+TheraTalk was developed by a dedicated team as our graduation project:
+* **Sanna Ascard-Soederstroem**: Backend Development, AI Development
+* **Safarova Shohona**: UI/UX Design
+* **Issa Batoul**: Frontend Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
